@@ -35,4 +35,4 @@ for network_name in networks_name_list:
     result = result + current_result
 
 send_mail(options.email, options.password, result)
-#note tufxtmigajgjxqsv
+

